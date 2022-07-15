@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Prediction Model</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	<h2>Nitrogen</h2>
+    <input class="Nitrogen"  type="text" id="uiN" class="floatLabel" name="n" >
+
+    <h2>Phosphorous</h2>
+    <input class="Nitrogen"  type="text" id="uiP" class="floatLabel" name="p" >
+
+    <h2>Calcium</h2>
+    <input class="Nitrogen"  type="text" id="uiK" class="floatLabel" name="k" >
+
+    <h2>Temperature</h2>
+    <input class="Nitrogen"  type="text" id="uiTemperature" class="floatLabel" name="temperature" >
+    
+    <h2>Humidity</h2>
+    <input class="Nitrogen"  type="text" id="uiHumidity" class="floatLabel" name="humidity" >
+
+    <h2>Ph</h2>
+    <input class="Nitrogen"  type="text" id="uiPh" class="floatLabel" name="ph">
+   
+    <h2>Rainfall</h2>
+    <input class="Nitrogen"  type="text" id="uiRainfall" class="floatLabel" name="rainfall" >
+    
+    <button class="submit" onclick="onClickedPredictCrop()" type="button">Predict Crop</button>
+	<div id="uiPredictCrop" class="result">	<h2></h2> </div>
+    
+    
