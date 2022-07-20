@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction Model</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	<h2>Pregnancies</h2>
+    <input class="Nitrogen"  type="text" id="uiP" class="floatLabel" name="pregnancies" >
+
+    <h2>Glucose</h2>
+    <input class="Nitrogen"  type="text" id="uiG" class="floatLabel" name="glucose" >
+
+    <h2>Bloodpressure</h2>
+    <input class="Nitrogen"  type="text" id="uiBL" class="floatLabel" name="bloodpressure" >
+
+    <h2>Skinthickness</h2>
+    <input class="Nitrogen"  type="text" id="uiS" class="floatLabel" name="skinthickness" >
+    
+    <h2>Insulin</h2>
+    <input class="Nitrogen"  type="text" id="uiI" class="floatLabel" name="insulin" >
+
+    <h2>Bmi</h2>
+    <input class="Nitrogen"  type="text" id="uiBM" class="floatLabel" name="Bmi">
+   
+    <h2>Diabetes-pedigree-function</h2>
+    <input class="Nitrogen"  type="text" id="uiD" class="floatLabel" name="diabetes_pedigree_function" >
+
+    <h2>Age</h2>
+    <input class="Nitrogen"  type="text" id="uiA" class="floatLabel" name="age" >
+    
+    <button class="submit" onclick="onClickedPredictDiabetes()" type="button"> Predict Diabetes </button>
+	<div id="uiPredictDiabetes" class="result">	<h2></h2> </div>
+    
+    
